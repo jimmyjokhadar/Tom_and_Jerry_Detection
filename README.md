@@ -3,6 +3,8 @@
 This project brings the **YOLOv11m-trained Tom & Jerry detector** from a previous project into production using **Flask**, **Docker**, and deployment on **AWS EC2**.  
 Upload an image via the web interface, and the app will detect whether **Tom**, **Jerry**, or both appear in the image.  
 
+Can be accessed on: tjdetector.duckdns.org
+
 ---
 
 ## Features
