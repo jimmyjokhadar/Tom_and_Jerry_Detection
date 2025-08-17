@@ -19,3 +19,16 @@ Upload an image via the web interface, and the app will detect whether **Tom**, 
 ```bash
 git clone https://github.com/<your-username>/tom-jerry-detector.git
 cd tom-jerry-detector
+```
+### 2. Build the docker image
+```bash
+docker build -t tomjerry-detector .
+```
+
+### 3. Run the container
+```bash
+docker run -p 8000:8000 tomjerry-detector
+```
+
+This will start the app at:
+👉 http://localhost:8000
