@@ -34,6 +34,8 @@ This will start the app at: http://localhost:8000
 
 After opening the app, upload an image and click detect.
 
+![App Demo](guide.gif)
+
 ## Known Issues / Limitations
 - The model is trained on a small dataset (~200 images) → may struggle with unseen poses/scenes.
 - Performance may be slower on CPU-only servers.
