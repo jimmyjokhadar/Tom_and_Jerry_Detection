@@ -41,4 +41,12 @@ After opening the app, upload an image and click detect.
 - Performance may be slower on CPU-only servers.
 - Currently limited to Tom and Jerry only (no extra characters).
 
+---
+## License
+This project is for educational purposes only. Tom and Jerry characters are copyrighted by Warner Bros.
+
+---
+## Contact
+For questions or feedback, feel free to reach out.
+
 
