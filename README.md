@@ -30,5 +30,13 @@ docker build -t tomjerry-detector .
 docker run -p 8000:8000 tomjerry-detector
 ```
 
-This will start the app at:
-👉 http://localhost:8000
+This will start the app at: http://localhost:8000
+
+After opening the app, upload an image and click detect.
+
+## Known Issues / Limitations
+- The model is trained on a small dataset (~200 images) → may struggle with unseen poses/scenes.
+- Performance may be slower on CPU-only servers.
+- Currently limited to Tom and Jerry only (no extra characters).
+
+
