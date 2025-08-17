@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tom & Jerry Detector</title>
+  <link rel="stylesheet" href="../static/styles.css">
+  <script src="../static/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>🐭 Tom & Jerry Detector 🐱</h1>
+    <hr>
+  </header>
+
+  <main>
+    <section id="content">
+      <h2>Welcome!</h2>
+      <p>Upload an image and let our AI detect whether <b>Tom</b> 🐱 or <b>Jerry</b> 🐭 are present!</p>
+    </section>
+
+    <!-- <div class="notice">
+      <strong>Note:</strong> This model is trained for fun and might not always detect perfectly.  
+    </div> -->
+
+    <!-- Upload Section -->
+    <section id="uploadSection">
+      <h2>Upload Image</h2>
+      <input type="file" id="imageInput" accept="image/*"><br>
+      <button id="detectButton">Detect</button>
+    </section>
+
+    <!-- Result -->
+     <section id="loadingSection" style="display:none;">
+            <h2>Detecting...</h2>
+            <div class="loading-animation">
+                <span></span><span></span><span></span>
+            </div>
+     </section>
+
+    <section id="resultSection" style="display:none;">
+        <h2>Detection Result</h2>
+        <img id="resultImage" src="" alt="Detection Result">
+        <ul id="detectionList"></ul>
+    </section>
+    <!-- <section id="resultSection">
+      <h2>Detection Result</h2>
+      <div id="resultOutput" class="response-box">
+        <p>No image processed yet.</p>
+      </div>
+      <canvas id="resultCanvas"></canvas>
+    </section> -->
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Tom & Jerry Detector</p>
+    <div class="contact-info">
+      <p>Contact me: 
+        <a href="https://github.com/jimmyjokhadar" target="_blank">GitHub</a> | 
+        <a href="https://www.linkedin.com/in/jimmyjokhadar/" target="_blank">LinkedIn</a> | 
+        <a href="mailto:jjoekhadar@gmail.com">Email</a>
+      </p>
+      <p class="developer-credit">Developed by Jimmy Jokhadar</p>
+    </div>
+  </footer>
+</body>
+</html>
