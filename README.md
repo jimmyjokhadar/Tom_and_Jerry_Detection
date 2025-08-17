@@ -17,12 +17,16 @@ Upload an image via the web interface, and the app will detect whether **Tom**, 
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/tom-jerry-detector.git
+git clone https://github.com/jimmyjokhadar/tom-jerry-detector.git
 cd tom-jerry-detector
 ```
 ### 2. Build the docker image
 ```bash
 docker build -t tomjerry-detector .
+```
+or directly pull from dockerhub
+```bash
+docker pull jimmyjokhadar/tomandjerry-detector:latest
 ```
 
 ### 3. Run the container
